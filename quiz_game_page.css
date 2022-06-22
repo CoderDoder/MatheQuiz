@@ -1,0 +1,39 @@
+body{
+    background-image: url(https://wallpaperaccess.com/full/1155041.jpg);
+    background-size: 100%;
+
+}
+#l{
+    font-size: 70px;
+    font-family: 'Luckiest Guy', cursive;
+    margin-top: -40px;
+}
+.leb{
+    font-family: 'Luckiest Guy', cursive;
+}
+#output{
+    background-color: #ffffff ;
+    padding:20px;
+    width: 400px;
+    height: 200px;
+    border-radius: 30px;
+    box-shadow: inset 0px 1px 20px 10px #1d5a33;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.btn1{
+    height: 50px;
+    width: 80px;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 20px;
+    box-shadow: inset 0px 3px 20px 16px #1d5a33;
+    color: black;
+    border-radius: 10px;
+}
+#input_num1,#input_num2{
+    width: 500px;
+
+}
+#head3,#head31{
+    color: black;
+}

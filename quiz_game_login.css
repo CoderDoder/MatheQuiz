@@ -1,0 +1,32 @@
+body{
+    background-image: url(https://wallpaperaccess.com/full/1155041.jpg);
+    background-size: 100%;
+}
+.player_login{
+    background-color: #ffffff ;
+    padding:20px;
+    width: 400px;
+    height: 200px;
+    border-radius: 30px;
+    box-shadow: inset 0px 1px 20px 10px #1d5a33;
+    font-family: 'Luckiest Guy', cursive;
+}
+#h{
+    font-size: 80px;
+}
+#s{
+    font-size: 30px;
+}
+.heading{
+    font-family: 'Luckiest Guy', cursive;
+}
+#btn1{
+    height: 70px;
+    width: 110px;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 30px;
+    box-shadow: inset 0px 1px 20px 10px #1d5a33;
+    color: rgb(2, 2, 2);
+}
+
+
