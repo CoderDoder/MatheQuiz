@@ -1,15 +1,17 @@
-player1_name=localStorage.getItem(player1_name);
-player2_name=localStorage.getItem(player2_name);
+var player1_name=localStorage.getItem("player1_name");
+console.log(player1_name);
+var player2_name=localStorage.getItem("player2_name");
+console.log(player2_name);
 var player1_score=0;
 var player2_score=0;
 
-document.getElementById("player1_name").innerHTML=player1_name;
-document.getElementById("player2_name").innerHTML=player2_name;
+document.getElementById("player1_name").innerHTML=player1_name+": ";
+document.getElementById("player2_name").innerHTML=player2_name+": ";
 document.getElementById("player1_score").innerHTML=player1_score;
 document.getElementById("player2_score").innerHTML=player2_score;
 
-document.getElementById("player_qn").innerHTML="Question Turn - "+player1_name;
-document.getElementById("player_ans").innerHTML="Answer Turn - "+player2_name;
+document.getElementById("q_turn").innerHTML="Question Turn - "+player1_name;
+document.getElementById("ans_turn").innerHTML="Answer Turn - "+player2_name;
 
 function send(){
     number1=document.getElementById("input_num1").value;

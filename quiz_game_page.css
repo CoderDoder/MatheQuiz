@@ -37,3 +37,10 @@ body{
 #head3,#head31{
     color: black;
 }
+#player1_score,#player2_score{
+    font-weight: bolder;
+    font-size: 20px;
+}
+#player1_name,#player2_name{
+    display: inline-block;
+}
